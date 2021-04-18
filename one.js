@@ -7,7 +7,7 @@ same([1,2,3],[1,9]) // false
 same([1,2,1],[4,4,1]) // false
 `);
 
-console.log(`\nSolution with Complexity On^2 as 2 loops are used\n`);
+console.log(`\nSolution with Complexity On^2 as nested loops are used\n`);
 function same(arr1, arr2) {
     if(arr1.length != arr2.length){
         return false;
