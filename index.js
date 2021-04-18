@@ -2,7 +2,9 @@ const { execFile } = require('child_process');
 
 const questions = [
     {one: "Same(On2): 2 arrays, second contains square of each element in fisrt array, same number of times"},
-    {two: "Same(On): 2 arrays, second contains square of each element in fisrt array, same number of times"}
+    {two: "Same(On): 2 arrays, second contains square of each element in fisrt array, same number of times"},
+    {three: "Anagram(On) with 3 loops"},
+    {four: "Anagram(On) with 2 loops"},
 ];
 console.log('===================== Questions List Frequency Counter Pattern ======================= \n');
 questions.map(question=> {
