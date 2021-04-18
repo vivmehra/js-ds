@@ -7,7 +7,8 @@ const questionsFreqCounter = [
     {four: "Anagram(On) with 2 loops"},
 ];
 const questionsMultiplePointer = [
-    {five:"sumZero(On2): Fisrt pair which sums to 0 in a sorted array"}
+    {five:"sumZero(On2): Fisrt pair which sums to 0 in a sorted array"},
+    {six:"sumZero(On): Fisrt pair which sums to 0 in a sorted array"}
 ];
 
 console.log('===================== Questions List Frequency Counter Pattern ======================= \n');
